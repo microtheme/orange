@@ -1,0 +1,95 @@
+/* RESET */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0}
+ul,li,ol{list-style:none;}
+
+/* ALL TEH THINGZ */
+.clr{clear:both;}
+
+/* DEFAULT */
+body{background:#e1e1e1;}
+.mtWrapper{margin:15px auto;width:960px;padding:auto;}
+.mtStyle{border:1px solid #b0b0b0;
+	-moz-box-shadow:0 1px 1px 1px #bbb;
+	-webkit-box-shadow:0 1px 1px #bbb;
+	-o-box-shadow:0 1px 1px #bbb;
+	box-shadow:0 1px 1px #bbb;
+}
+
+/* HEADER */
+#mtHeader{background:url('../images/dotted.png') repeat-x left bottom;padding:5px 0;margin-bottom:15px;}
+#mtHeader .mtLogo{width:785px;float:left;}
+#mtHeader .mtSearch{margin:10px 0 0 785px;background:url('../images/search-box.png') no-repeat 0 0;}
+#mtHeader .mtSearch:hover{background:url('../images/search-box-h.png') no-repeat 0 0;}
+#mtHeader .mtSearch input{width:140px;height:21px;bottom:0;border:0;margin-left:8px;background:0;}
+
+/* POST / CONTENTS */
+#mtPost{width:690px;float:left;}
+#mtPost .mtReWrap{float:left;display:inline;padding-right:14px;}
+#mtPost .mtContainer{width:328px;background:#fff;border-top:0;border-bottom:0;}
+#mtPost .mtRegular.mtContainer h3{background:url('../images/post-title.jpg') repeat-x 0 0;height:42px;margin:0 0 5px;padding:0 10px;
+	-moz-box-shadow:0 1px 1px #ececec;
+	-webkit-box-shadow:0 1px 1px #ececec;
+	-o-box-shadow:0 1px 1px #ececec;
+	box-shadow:0 1px 1px #ececec;
+}
+#mtPost .mtContainer p{padding:3px 10px;}
+#mtPost .mtContainer p img{width:308px;height:auto;}
+#mtPost .mtContainer p a img:hover{background:url('../images/resize.png') no-repeat;}
+#mtPost .mtContainer .mtPost-foot{float:right;left:-50%;text-align:left;position:relative;}
+#mtPost .mtContainer blockquote,#mtPost .mtContainer code{display:block;background:#fcfcfc;border-left:3px solid #ddd;padding:5px 7px;margin:3px 10px;}
+#mtPost .mtContainer .mtPost-foot ul{left:50%;position:relative;}
+#mtPost .mtContainer .mtPost-foot li{display:inline;float:left;padding:0 3px;}
+#mtPost .mtContainer .mtPost-foot li a.mtLike,
+#mtPost .mtContainer .mtPost-foot li a.mtReblog,
+#mtPost .mtContainer .mtPost-foot li a.mtComment,
+#mtPost .mtContainer .mtPost-foot li a.mtPermalink{background:url('../images/mtTool.png') no-repeat;width:29px;height:30px;display:block;text-indent:-9999px;border:0;}
+#mtPost .mtContainer .mtPost-foot li a.mtLike{background-position:0 0;}
+#mtPost .mtContainer .mtPost-foot li a.mtReblog{background-position:0 -30px;}
+#mtPost .mtContainer .mtPost-foot li a.mtComment{background-position:0 -60px;}
+#mtPost .mtContainer .mtPost-foot li a.mtPermalink{background-position:0 -90px;}
+#mtPost .mtContainer .mtPost-footWrap{border-top:1px dotted #777;border-bottom:1px dotted #777;padding:4px 0;margin:5px 10px;overflow:auto;}
+#mtPost .mtPost-top,#mtPost .mtPost-bottom{display:block;height:6px;width:330px;}
+#mtPost .mtPost-top{background:url('../images/post-top.png') no-repeat 0 0;}
+#mtPost .mtPost-bottom{background:url('../images/post-bottom.png') no-repeat 0 0;padding-bottom:20px;}
+#mtPost ul.mtBalloon{width:312px;padding:3px 8px;}
+#mtPost li.mtBalloon-top{background:url('../images/mtBalloon-top.png') no-repeat 0 0;width:312px;height:12px;}
+#mtPost li.mtBalloon-body{background:url('../images/mtBalloon-body.png') repeat-y 0 0;width:312px;color:#fff;}
+#mtPost li.mtBalloon-bottom{background:url('../images/mtBalloon-bottom.png') no-repeat 0 0;width:312px;height:8px;}
+#mtPost li.mtBalloon-body p{padding:0 10px 3px;}
+#mtPost .mtLink.mtContainer h3{padding:0 10px;}
+#mtPost .mtQuote h3.mtQuotePost{background:#fcfcfc;margin:0 10px;padding:10px;}
+#mtPost .mtQuote p.mtQuoteSource:before{content:'- ';}
+
+/* SIDEBAR */
+#mtSidebar{margin-left:690px;background:#f8f8f8;}
+#mtSidebar .mtAbout{background:#ebebeb;padding:10px 8px;}
+#mtSidebar .mtAbout .mtAva-64{float:left;}
+#mtSidebar .mtAbout .mtAva-64 img{padding:2px;border:1px solid #ababab;background:#fff;}
+#mtSidebar .mtAbout .mtDesc{margin-left:80px;}
+#mtSidebar .mtContent{padding:8px;color:#444;}
+
+/* FOOTER */
+#mtFooter{border-top:2px solid #ccc;padding:9px 0;}
+
+/* TYPOGRAHY */
+.small{font-size:9px;color:#aaa;text-align:center;}
+#mtHeader h1 a{font:36px 'Yanone Kaffeesatz',sans-serif;color:#444;text-shadow:0 1px 0 #fff;text-transform:uppercase;text-decoration:none;}
+#mtHeader .mtSearch input{font:italic 10px Georgia,Serif;color:#aaa;line-height:21px;}
+#mtPost{font:12px/18px 'Droid Sans',sans-serif;color:#444;}
+#mtPost .mtContainer p a{border-bottom:1px solid #ffab18;color:#111;}
+#mtPost .mtContainer blockquote{font:italic 14px/14px Georgia,serif;}
+#mtPost .mtContainer code{font:12px;}
+#mtPost .mtRegular.mtContainer h3{font:24px 'Yanone Kaffeesatz',sans-serif;color:#9a4b16;text-shadow:0 1px 0 #ffdfa6;line-height:42px;text-decoration:none;}
+#mtPost .mtLink.mtContainer h3 a{font:24px 'Yanone Kaffeesatz',sans-serif;border-bottom:1px solid #ffab18;color:#111;}
+#mtPost .mtQuote h3.mtQuotePost{font:24px/24px 'Yanone Kaffeesatz',sans-serif;}
+#mtPost .mtQuote p.mtQuoteSource{font:italic 11px Georgia,serif;text-align:right;}
+#mtPost .mtContainer a{text-decoration:none;}
+#mtPost p.mtTag a{font-size:9px;color:#ffc018;border-bottom:0;}
+#mtPost p.mtTag a:hover{text-decoration:underline;}
+#mtPost li.mtBalloon-body p{line-height:14px;}
+#mtPost li.mtBalloon-body a{color:#ffc018;border-bottom:0;}
+#mtSidebar h3{font:14px/24px Georgia,serif;color:#444;}
+#mtSidebar{font:11px Georgia,Serif;color:#777;}
+#mtFooter{color:#999;text-align:right;font:11px 'Droid Sans',sans-serif;}
+#mtFooter a{color:#777;text-decoration:none;}
+#mtFooter a:hover{color:#555;}
