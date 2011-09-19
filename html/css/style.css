@@ -16,7 +16,7 @@ body{background:#e1e1e1;}
 }
 
 /* HEADER */
-#mtHeader{background:url('../images/dotted.png') repeat-x left bottom;padding:5px 0;margin-bottom:15px;}
+#mtHeader{background:url('../images/dotted.png') repeat-x left bottom;padding:5px 0 8px;margin-bottom:15px;}
 #mtHeader .mtLogo{width:785px;float:left;}
 #mtHeader .mtSearch{margin:10px 0 0 785px;background:url('../images/search-box.png') no-repeat 0 0;}
 #mtHeader .mtSearch:hover{background:url('../images/search-box-h.png') no-repeat 0 0;}
@@ -24,7 +24,7 @@ body{background:#e1e1e1;}
 
 /* POST / CONTENTS */
 #mtPost{width:690px;float:left;}
-#mtPost .mtReWrap{float:left;display:inline;padding-right:14px;}
+#mtPost .mtReWrap{float:left;display:inline;padding-right:15px;}
 #mtPost .mtContainer{width:328px;background:#fff;border-top:0;border-bottom:0;}
 #mtPost .mtRegular.mtContainer h3{background:url('../images/post-title.jpg') repeat-x 0 0;height:42px;margin:0 0 5px;padding:0 10px;
 	-moz-box-shadow:0 1px 1px #ececec;
@@ -90,11 +90,11 @@ body{background:#e1e1e1;}
 }
 
 /* FOOTER */
-#mtFooter{border-top:2px solid #ccc;padding:9px 0;}
+#mtFooter{padding:9px 0;background:url('../images/dotted.png') repeat-x left top;}
 
 /* TYPOGRAHY */
 .small{font-size:9px;color:#aaa;text-align:center;}
-#mtHeader h1 a{font:36px 'Yanone Kaffeesatz',sans-serif;color:#444;text-transform:uppercase;text-decoration:none;}
+#mtHeader h1 a{font:36px 'Lobster',sans-serif;color:#444;text-decoration:none;}
 #mtHeader .mtSearch input{font:italic 10px Georgia,Serif;color:#aaa;line-height:21px;}
 #mtPost{font:12px/18px 'Droid Sans',sans-serif;color:#444;}
 #mtPost .mtContainer p a{border-bottom:1px solid #ffab18;color:#111;}
