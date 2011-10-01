@@ -78,9 +78,23 @@ body{background:#e1e1e1;}
 #mtSidebar .mtAbout .mtAva-64{float:left;}
 #mtSidebar .mtAbout .mtAva-64 img{padding:2px;border:1px solid #ababab;background:#fff;}
 #mtSidebar .mtAbout .mtDesc{margin-left:80px;}
-#mtSidebar .mtContent{padding:8px;color:#444;}
+#mtSidebar .mtContent{padding:8px;color:#444;border-bottom:1px solid #ebebeb;}
 #mtSidebar .mtContent ul{overflow:auto;}
-#mtSidebar .mtContent li.mtAva-24{display:inline;float:left;margin:0 8px 8px 0;}
+#mtSidebar .mtContent li{display:inline;float:left;margin:0 8px 8px 0;}
+#mtSidebar .mtContent li a.facebook,
+#mtSidebar .mtContent li a.twitter,
+#mtSidebar .mtContent li a.gplus,
+#mtSidebar .mtContent li a.youtube,
+#mtSidebar .mtContent li a.dailybooth,
+#mtSidebar .mtContent li a.dribbble,
+#mtSidebar .mtContent li a.forrst{background:url('../images/social.png') no-repeat;height:23px;display:block;text-indent:-9999px;}
+#mtSidebar .mtContent li a.facebook{background-position:0 0;width:79px;}
+#mtSidebar .mtContent li a.twitter{background-position:0 -23px;width:64px;}
+#mtSidebar .mtContent li a.gplus{background-position:0 -46px;width:79px;}
+#mtSidebar .mtContent li a.youtube{background-position:0 -69px;width:79px;}
+#mtSidebar .mtContent li a.dailybooth{background-position:0 -92px;width:88px;}
+#mtSidebar .mtContent li a.dribbble{background-position:0 -115px;width:76px;}
+#mtSidebar .mtContent li a.forrst{background-position:0 -138px;width:65px;}
 #mtSidebar .mtContent li.mtAva-24 a{display:block;background:#fff;padding:1px;border:1px solid #ccc;}
 #mtSidebar .mtContent li.mtAva-24 a:hover{border:1px solid #888;
 	-moz-box-shadow:0 0  3px #aaa;
