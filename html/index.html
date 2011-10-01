@@ -24,7 +24,7 @@
 				<h1><a href="">Holy Cow If This Is A Cow</a></h1>
 			</div>
 			<div class="mtSearch">
-				<input type="text" value="Search..." name="" />
+				<input type="text" onfocus="if(this.value=='Search...') this.value='';" onblur="if(this.value=='') this.value='Search...';" value="Search..." name="" />
 			</div>
 			<div class="clr"></div>
 		</div>
