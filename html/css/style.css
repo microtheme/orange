@@ -39,7 +39,7 @@ body{background:#e1e1e1;}
 	box-shadow:0 1px 1px #ececec;
 }
 #mtPost .mtContainer p{padding:3px 10px;}
-#mtPost p img,#mtPost a img{width:308px;height:auto;border-bottom:1px solid #fff;}
+#mtPost p img,#mtPost a img{width:308px;height:auto;}
 #mtPost .mtContainer p a img:hover{background:url('../images/resize.png') no-repeat;}
 #mtPost .mtContainer .mtPost-foot{float:right;left:-50%;text-align:left;position:relative;}
 #mtPost .mtContainer blockquote,#mtPost .mtContainer code{display:block;background:#fcfcfc;border-left:3px solid #ddd;padding:5px 7px;margin:3px 10px;}
@@ -128,7 +128,7 @@ body{background:#e1e1e1;}
 /* TYPOGRAHY */
 .small{font-size:9px;color:#aaa;text-align:center;}
 #mtHeader h1 a{font:36px 'Ubuntu Condensed',sans-serif;color:#444;text-decoration:none;line-height:1.25em;text-transform:uppercase;letter-spacing:-1px;}
-#mtHeader .mtMenuNav li a{font:14px/45px 'Yanone Kaffeesatz',sans-serif;color:#e8e8e8;text-decoration:none;text-transform:uppercase;}
+#mtHeader .mtMenuNav li a{font:14px/45px 'Yanone Kaffeesatz',sans-serif;color:#e8e8e8;text-decoration:none;text-transform:uppercase;text-indent:2px;}
 #mtHeader .mtMenuNav li a:hover{color:#333;}
 #mtPost{font:12px/18px 'Droid Sans',sans-serif;color:#444;}
 #mtPost .mtContainer p a{border-bottom:1px solid #ffab18;color:#111;}
